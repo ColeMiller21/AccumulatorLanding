@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
 //
-const defaultFavicon = "/favicon.ico";
+const defaultFavicon = "/acorn-logo.png";
 const defaultOGImage = "/vercel.svg";
 const defaultTwitterHandle = "@PotluckProtocol";
 const siteName = "Accumulator";

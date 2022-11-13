@@ -1,3 +1,4 @@
+import SEOMeta from "../components/SEOMeta";
 import Landing from "../components/sections/Landing";
 import Accumulate from "../components/sections/Accumulate";
 import Navbar from "../components/sections/Navbar";
@@ -6,16 +7,19 @@ import Yield from "../components/sections/Yield";
 import Footer from "../components/sections/Footer";
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
+const SEOdesc =
+  "We auto-compound your LP tokens to generate EVEN MORE LP tokens. Just deposit, sit back, and EARN!";
+
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <SEOMeta page="Accumulator" description={SEOdesc} path="/" /> <Navbar />
       <Landing />
       <Yield />
       <Accumulate />
       <Stake />
       <Footer />
-      <ScrollUpButton AnimationDuration={800} style={{ color: "red" }} />
+      <ScrollUpButton AnimationDuration={800} style={{}} />
     </>
   );
 }
