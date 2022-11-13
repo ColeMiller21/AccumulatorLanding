@@ -5,7 +5,7 @@ const defaultFavicon = "/acorn-logo.png";
 const defaultOGImage = "/vercel.svg";
 const defaultTwitterHandle = "@PotluckProtocol";
 const siteName = "Accumulator";
-const baseUrl = "https://www.genuineundead.io/";
+const baseUrl = "https://accumulator-landing.vercel.app/";
 
 const SEOMeta = ({
   page,
