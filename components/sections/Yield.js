@@ -13,7 +13,7 @@ const Yield = () => {
           className="mb-4"
         />
         <p className="w-[90%] w-[60%] text-center">
-          Save time and money auto-compounder your favorite projects in our
+          Save time and money auto-compounding your favorite projects in our
           vaults
         </p>
         <a className="flex flex-col text-center my-2">

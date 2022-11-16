@@ -27,7 +27,7 @@ const links = [
   },
   {
     link: "",
-    text: "IOTA",
+    text: "Shimmer",
   },
 ];
 const Footer = () => {
