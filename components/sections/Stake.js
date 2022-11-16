@@ -14,7 +14,7 @@ const Stake = () => {
             className="mb-4"
           />
           <p className="w-[90%] w-[60%] text-center">
-            Stake your ACC LP and earn great APY and governance rights
+            Stake your ACCU LP and earn great APY and governance rights
           </p>
           <a className="flex flex-col text-center my-2">
             {" "}
