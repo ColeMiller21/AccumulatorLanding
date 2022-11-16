@@ -5,7 +5,7 @@ const Stake = () => {
     <div className="min-w-screen bg-[#ebf0ee] flex flex-col items-center">
       <div className="w-[90%] flex justify-center">
         <div className="w-full h-full md:w-[50%] flex flex-col items-center py-[4rem]">
-          <h1 className="font-vcr text-[3.5rem] md:text-[6rem] font-[900] main-heading text-[#0f70d7]">
+          <h1 className="font-vcr text-[3.5rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-[#0f70d7]">
             STAKE
           </h1>
           <img
