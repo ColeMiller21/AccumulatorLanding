@@ -16,7 +16,7 @@ const Stake = () => {
               />
             </legend>
 
-            <p className="w-[100%] w-[60%] text-center">
+            <p className="w-[100%] md:w-[75%] text-center">
               Stake your ACCU LP and earn great APY and governance rights
             </p>
             <a className="flex flex-col text-center my-2">

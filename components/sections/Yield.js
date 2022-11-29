@@ -37,7 +37,7 @@ const Yield = () => {
             />
           </legend>
 
-          <p className="w-[100%] w-[60%] text-center">
+          <p className="w-[100%] md:w-[75%] text-center">
             Save time and money auto-compounding your favorite projects in our
             vaults
           </p>
@@ -46,7 +46,7 @@ const Yield = () => {
           </a>
         </fieldset>
       </motion.div>
-      <motion.div className="w-[90%] md:w-[50%] flex justify-center">
+      <motion.div className="w-[90%] md:w-[50%] flex justify-center pb-[4rem] md:pb-0">
         <img
           src="/squirrelandnuts.png"
           alt="Accumulator Squirrel"
