@@ -1,28 +1,58 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+const leftVariant = {
+  visible: { opacity: 1, x: 0, transition: { duration: 0.75 } },
+  hidden: { opacity: 0, x: "-100%" },
+};
+
+const rightVariant = {
+  visible: { opacity: 1, x: 0, transition: { duration: 0.75 } },
+  hidden: { opacity: 0, x: "100%" },
+};
 
 const Yield = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
   return (
-    <div className="min-w-screen bg-[#ebf0ee] flex flex-col-reverse md:flex-row items-center">
-      <div className="w-[90%] md:w-[50%] flex flex-col items-center py-[4rem]">
+    <div
+      className="min-w-screen bg-[#ebf0ee] flex flex-col md:flex-row items-center min-h-[80vh]"
+      ref={ref}
+    >
+      <motion.div className="w-[90%] md:w-[50%] flex flex-col items-center py-[4rem]">
         <h1 className="font-vcr text-[3.5rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-[#0f70d7]">
           YIELD
         </h1>
+        <fieldset className="w-[90%] md:w-[75%] p-[2rem] flex flex-col items-center">
+          <legend align="center">
+            <img
+              src="/images/acorns/Acorns-Landing-Sections 1.png"
+              alt="Acorn Yeild"
+            />
+          </legend>
+
+          <p className="w-[100%] w-[60%] text-center">
+            Save time and money auto-compounding your favorite projects in our
+            vaults
+          </p>
+          <a className="flex flex-col text-center my-2">
+            LAUNCH THE VAULTS <span>(COMING SOON)</span>
+          </a>
+        </fieldset>
+      </motion.div>
+      <motion.div className="w-[90%] md:w-[50%] flex justify-center">
         <img
-          src="/images/acorns/Acorns-Landing-Sections 1.png"
-          alt="Acorn Yeild"
-          className="mb-4"
+          src="/squirrelandnuts.png"
+          alt="Accumulator Squirrel"
+          className="h-[70%] w-[80%]"
         />
-        <p className="w-[90%] w-[60%] text-center">
-          Save time and money auto-compounding your favorite projects in our
-          vaults
-        </p>
-        <a className="flex flex-col text-center my-2">
-          LAUNCH THE VAULTS <span>(COMING SOON)</span>
-        </a>
-      </div>
-      <div className="w-[90%] md:w-[50%] flex justify-center">
-        <img src="/images/omnomn.png" alt="Accumulator Squirrel" />
-      </div>
+      </motion.div>
     </div>
   );
 };
