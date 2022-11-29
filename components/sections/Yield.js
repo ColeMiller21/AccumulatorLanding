@@ -36,7 +36,6 @@ const Yield = () => {
               alt="Acorn Yeild"
             />
           </legend>
-
           <p className="w-[100%] md:w-[75%] text-center">
             Save time and money auto-compounding your favorite projects in our
             vaults
