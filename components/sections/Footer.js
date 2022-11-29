@@ -117,6 +117,7 @@ const Footer = () => {
           name="subscribe"
           id="mc-embedded-subscribe"
           className="button"
+          style={{ display: "none" }}
         />
       </div>
       {/* END */}
