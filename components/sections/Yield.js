@@ -29,21 +29,19 @@ const Yield = () => {
         <h1 className="font-vcr text-[3.5rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-[#0f70d7]">
           YIELD
         </h1>
-        <fieldset className="w-[90%] md:w-[75%] p-[2rem] flex flex-col items-center">
-          <legend align="center">
-            <img
-              src="/images/acorns/Acorns-Landing-Sections 1.png"
-              alt="Acorn Yeild"
-            />
-          </legend>
-          <p className="w-[100%] md:w-[75%] text-center">
-            Save time and money auto-compounding your favorite projects in our
-            vaults
-          </p>
-          <a className="flex flex-col text-center my-2">
-            LAUNCH THE VAULTS <span>(COMING SOON)</span>
-          </a>
-        </fieldset>
+
+        <img
+          src="/images/acorns/Acorns-Landing-Sections 1.png"
+          alt="Acorn Yeild"
+          className="my-[1.5rem]"
+        />
+        <p className="w-[100%] md:w-[75%] text-center">
+          Save time and money auto-compounding your favorite projects in our
+          vaults
+        </p>
+        <a className="flex flex-col text-center my-2">
+          LAUNCH THE VAULTS <span>(COMING SOON)</span>
+        </a>
       </motion.div>
       <motion.div className="w-[90%] md:w-[50%] flex justify-center pb-[4rem] md:pb-0 blob1-bg">
         <img

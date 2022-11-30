@@ -79,9 +79,31 @@ a {
   }
 }
 
-@keyframes bounce {
-  50% {
-    transform: translateY(-50%);
+.scrollTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  justify-content: end;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
   }
 }
 

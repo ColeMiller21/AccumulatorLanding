@@ -16,20 +16,18 @@ const Accumulate = () => {
         <h1 className="font-vcr text-[3.5rem] md:text-[6rem] font-[900] main-heading text-[#0f70d7]">
           ACCUMULATE
         </h1>
-        <fieldset className="w-[85%] md:w-[75%] p-[2rem] flex flex-col items-center">
-          <legend align="center">
-            <img
-              src="/images/acorns/Acorns-Landing-Sections 2.png"
-              alt="Acorn Yeild"
-            />
-          </legend>
-          <p className="w-[100%] md:w-[75%] text-center">
-            Purchase ACCU and create LP to strengthen your position
-          </p>
-          <a className="flex flex-col text-center my-2">
-            I WANT TO ACCUMULATE <span>(COMING SOON)</span>
-          </a>
-        </fieldset>
+
+        <img
+          src="/images/acorns/Acorns-Landing-Sections 2.png"
+          alt="Acorn Yeild"
+          className="my-[1.5rem]"
+        />
+        <p className="w-[100%] md:w-[75%] text-center">
+          Purchase ACCU and create LP to strengthen your position
+        </p>
+        <a className="flex flex-col text-center my-2">
+          I WANT TO ACCUMULATE <span>(COMING SOON)</span>
+        </a>
       </div>
     </div>
   );

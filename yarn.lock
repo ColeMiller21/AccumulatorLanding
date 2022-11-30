@@ -657,11 +657,6 @@
   "resolved" "https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz"
   "version" "2.0.3"
 
-"detect-passive-events@^1.0.4":
-  "integrity" "sha512-foW7Q35wwOCxVzW0xLf5XeB5Fhe7oyRgvkBYdiP9IWgLMzjqUqTvsJv9ymuEWGjY6AoDXD3OC294+Z9iuOw0QA=="
-  "resolved" "https://registry.npmjs.org/detect-passive-events/-/detect-passive-events-1.0.5.tgz"
-  "version" "1.0.5"
-
 "detective@^5.2.1":
   "integrity" "sha512-v9XE1zRnz1wRtgurGu0Bs8uHKFSTdteYZNbIPFVhUZ39L/S79ppMpdmVOZAnoz1jfEFodc48n6MX483Xo3t1yw=="
   "resolved" "https://registry.npmjs.org/detective/-/detective-5.2.1.tgz"
@@ -1970,15 +1965,6 @@
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   "version" "3.0.4"
 
-"react-scroll-up-button@^1.6.4":
-  "integrity" "sha512-ou/ZLbjAXgXnszmNp9g17XlZBat48V3Oz40ssEcu6dEIM2CVn/yWxej3Y4Fx1LyUtQ1cc/MoWOSXC2dufaiACg=="
-  "resolved" "https://registry.npmjs.org/react-scroll-up-button/-/react-scroll-up-button-1.6.4.tgz"
-  "version" "1.6.4"
-  dependencies:
-    "detect-passive-events" "^1.0.4"
-    "prop-types" "^15.6.2"
-    "tween-functions" "^1.2.0"
-
 "react-spinners@^0.13.6":
   "integrity" "sha512-+VoSs1wN6oMhJy7PzCPiHUt6zUi9fvnGQizem8q/NzXhGovbdXFDWNhspk6KEKXQEafInUtpvtDlp/zJ5sES/A=="
   "resolved" "https://registry.npmjs.org/react-spinners/-/react-spinners-0.13.6.tgz"
@@ -2324,11 +2310,6 @@
   "version" "3.21.0"
   dependencies:
     "tslib" "^1.8.1"
-
-"tween-functions@^1.2.0":
-  "integrity" "sha512-PZBtLYcCLtEcjL14Fzb1gSxPBeL7nWvGhO5ZFPGqziCcr8uvHp0NDmdjBchp6KHL+tExcg0m3NISmKxhU394dA=="
-  "resolved" "https://registry.npmjs.org/tween-functions/-/tween-functions-1.2.0.tgz"
-  "version" "1.2.0"
 
 "type-check@^0.4.0", "type-check@~0.4.0":
   "integrity" "sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew=="

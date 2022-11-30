@@ -5,7 +5,7 @@ import Navbar from "../components/sections/Navbar";
 import Stake from "../components/sections/Stake";
 import Yield from "../components/sections/Yield";
 import Footer from "../components/sections/Footer";
-import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
+import ScrollUpBtn from "../components/ScrollUpBtn";
 
 const SEOdesc =
   "We auto-compound your LP tokens to generate EVEN MORE LP tokens. Just deposit, sit back, and EARN!";
@@ -19,7 +19,7 @@ export default function Home() {
       <Accumulate />
       <Stake />
       <Footer />
-      <ScrollUpButton AnimationDuration={800} style={{}} />
+      <ScrollUpBtn />
     </>
   );
 }
