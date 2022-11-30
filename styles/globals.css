@@ -95,6 +95,13 @@ a {
   }
 }
 
+.blob1-bg {
+  background-image: url("/blob1.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .main-heading {
   -webkit-text-stroke: 0.5px white;
 }

@@ -45,7 +45,7 @@ const Yield = () => {
           </a>
         </fieldset>
       </motion.div>
-      <motion.div className="w-[90%] md:w-[50%] flex justify-center pb-[4rem] md:pb-0">
+      <motion.div className="w-[90%] md:w-[50%] flex justify-center pb-[4rem] md:pb-0 blob1-bg">
         <img
           src="/squirrelandnuts.png"
           alt="Accumulator Squirrel"
