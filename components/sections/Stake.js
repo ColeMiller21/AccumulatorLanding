@@ -10,7 +10,7 @@ const Stake = () => {
             initial={{ opacity: 0, y: -100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ type: "easeIn", duration: 0.6 }}
-            className="font-vcr text-[3.5rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-[#0f70d7]"
+            className="font-vcr text-[3.5rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-stroke"
           >
             STAKE
           </motion.h1>

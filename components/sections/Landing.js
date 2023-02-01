@@ -15,13 +15,13 @@ const Landing = () => {
   return (
     <div
       id="main"
-      className="min-full-page w-min-screen flex flex-col landing-background items-center"
+      className="relative min-h-[150vh] w-min-screen flex flex-col bg-[#97CAFF] items-center overflow-y-visible"
     >
       <div
         id="content-wrapper"
         className="mt-[30%] md:mt-[10%] flex flex-col w[90%] md:w-[50%] items-center"
       >
-        <h1 className="font-vcr text-[3rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-[#0f70d7]">
+        <h1 className="font-vcr text-[3rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-stroke">
           ACCUMULATOR
         </h1>
         <p className="text-center w-[90%]">
@@ -38,14 +38,7 @@ const Landing = () => {
         </motion.button>
         <HModal isOpen={isModalOpen} toggleOpen={toggleModal} />
       </div>
-      <div className=" text-black absolute bottom-[2%] text-[4rem] text-white text-center">
-        <div className="flex flex-col items-center">
-          <IconContext.Provider value={{ className: "arrow" }}>
-            <BsChevronDoubleDown />
-          </IconContext.Provider>
-          <span className="text-white text-[2rem]">Scroll Down</span>
-        </div>
-      </div>
+      <img src="/images/lander.png" className="w-full h-[100vh]" />
     </div>
   );
 };

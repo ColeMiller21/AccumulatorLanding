@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        vcr: ["VCR", "sans-serif"],
+        vcr: ["Berlin", "sans-serif"],
       },
     },
   },

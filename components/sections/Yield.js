@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Yield = () => {
   return (
-    <div className="min-w-screen bg-[#ebf0ee] flex flex-col md:flex-row items-center min-h-[80vh] ">
+    <div className="min-w-screen bg-[#97CAFF] flex flex-col md:flex-row items-center min-h-[80vh]">
       <div
         viewport={{ once: true }}
         initial={{ opacity: 0, x: -100 }}
@@ -16,7 +16,7 @@ const Yield = () => {
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ type: "easeIn", duration: 0.6 }}
-          className="font-vcr text-[3.5rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-[#0f70d7]"
+          className="font-vcr text-[3.5rem] md:text-[5.25rem] xl:text-[6rem] font-[900] main-heading text-stroke"
         >
           YIELD
         </motion.h1>

@@ -9,13 +9,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow: auto;
-  font-family: "VCR", sans-serif;
+  font-family: "Berlin", sans-serif;
 }
 
 @font-face {
-  font-family: "VCR";
+  font-family: "Berlin";
   font-weight: 400;
-  src: url("/fonts/VCR_OSD_MONO_1.001.ttf") format("truetype");
+  src: url("/fonts/Berlin_Sans_FB_Demi_Bold.ttf") format("truetype");
 }
 
 input:focus,
@@ -53,12 +53,19 @@ a {
   transform: translate(-50%, -50%);
 }
 
+.text-stroke {
+  color: #fafafa;
+  font-size: 40px;
+  text-shadow: -1px 1px 2px #6e1a0a, 2px 2px 3px #6e1a0a, 1px -1px 0 #6e1a0a,
+    -1px -1px 0 #6e1a0a;
+}
+
 .landing-background {
   max-height: 100vh;
-  background-image: url("/images/background/Accumulator-Landing-Background.png");
+  background-image: url("/images/lander.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .how-it-works-background {
